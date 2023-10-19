@@ -1,5 +1,11 @@
+/* * {
+    box-sizing: border-box;
+} */
+
 :root {
     --color-primary: #6C38CC;
+    --color-primary-hover: #5b2bb2;
+    --gradient: linear-gradient(93.33deg, #d77be6 9.26%, #be63e6 42.32%, #6c38cc 104.58%);
     --color-text: #FAFAFA;
     --color-link-hover: #AFB2BF;
     --color-bg: #16171D;
@@ -7,6 +13,8 @@
     --color-bg-light: #2E2D3D;
     --color-stroke: #4D5064;
     --border-8: 8px;
+    --border-10: 10px;
+    --layout-width: 1172px;
 
 }
 

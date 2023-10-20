@@ -1,6 +1,4 @@
 /* Section */
-.section {}
-
 .section-light {
     background: var(--color-bg-medium);
 }

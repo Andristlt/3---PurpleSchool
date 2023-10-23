@@ -13,4 +13,48 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 36px;
+}
+
+.footer__menu {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 48px;
+}
+
+.footer__menu-header {
+    line-height: 120%;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--color-secondary);
+}
+
+.menu-smoll__list {
+    list-style: none;
+    padding: 0;
+
+}
+
+.menu-smoll__item {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 120%;
+    color: var(--color-link-hover);
+    margin-bottom: 12px;
+}
+
+.menu-smoll__item a {
+    color: var(--color-text);
+    margin-bottom: 12px;
+}
+
+.menu-smoll__item a:hover {
+    color: var(--color-link-hover);
+}
+
+.footer__copyright {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--color-link-hover);
 }

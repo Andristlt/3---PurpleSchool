@@ -3,6 +3,11 @@
     background: var(--color-bg-medium);
 }
 
+.section__wrapper {
+    max-width: var(--layout-width);
+    margin: 0 auto;
+    padding: 100px 24px;
+}
 
 
 
@@ -16,6 +21,7 @@
     border-radius: var(--border-10);
     padding: 16px 32px;
     cursor: pointer;
+    display: inline-block;
 }
 
 .button_primary {
@@ -31,7 +37,7 @@
 }
 
 .button_ghost:hover {
-    background: var(--color-bg-medium);
+    background: var(--color-bg-light);
 }
 
 @media (max-width: 640px) {
@@ -58,4 +64,109 @@
 
 .social-icons__icon:hover {
     background-color: var(--color-bg-medium);
+}
+
+/* Headling */
+.headling {
+    margin-bottom: 32px;
+    border-color: var(--color-bg);
+}
+
+.headling__top {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--color-secondary);
+    margin-bottom: 8px;
+}
+
+.headling__buttom {
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--color-text);
+    margin: 0 0 32px 0;
+}
+
+/* Paragraph */
+
+.paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--color-text);
+    max-width: 787px;
+}
+
+.paragraph32 {
+    margin-bottom: 32px;
+}
+
+/* Card */
+
+.card {
+    background: var(--color-bg-medium);
+    border-radius: var(--border-10);
+}
+
+.card__32 {
+    padding: 32px;
+}
+
+/* Post-wrapper */
+
+.post-wrapper {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-bottom: 48px;
+}
+
+/* Post */
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.post__button a {
+    display: block;
+}
+
+.post__stats {
+    display: flex;
+    gap: 32px;
+}
+
+.post__stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: var(--color-link-hover);
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.post__content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.post__header {
+    font-weight: 700px;
+    font-size: 24px;
+    line-height: 120%;
+    color: var(--color-text);
+    margin: 0;
+}
+
+.post__description {
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--color-text);
 }
